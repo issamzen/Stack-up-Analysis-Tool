@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/zenoosam/csu-license-server/refs/heads/main/licenses.json
