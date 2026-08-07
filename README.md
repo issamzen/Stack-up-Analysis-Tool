@@ -106,42 +106,10 @@
 
 ---
 
-## 📁 Repository Layout
-
-```
-catia-stackup-dashboard/
-├── CatiaStackUpTool/            # The dashboard (what customers get)
-│   ├── Program.vb               # Entry point
-│   ├── MainForm.vb              # Main UI + calculations + Excel export
-│   ├── LicenseCore.vb           # Key generation/validation (shared crypto)
-│   ├── LicenseDialog.vb         # Buy/Activate dialog
-│   └── app_logo.png             # Default company logo
-├── LicenseKeyGenerator/         # Vendor-only tool (kept private!)
-│   ├── GeneratorForm.vb         # Make/modify/verify/cancel keys + GitHub sync
-│   └── GithubSync.vb            # GitHub API for the online revocation list
-├── CATIA_StackUp_Dashboard_UserGuide.md   # Full user documentation
-├── GITHUB_SETUP.md              # Free online-revocation setup (no domain)
-└── LICENSE_SYSTEM_STEP0.md      # Beginner guide to the licensing system
-```
-
-> ⚠️ **The License Key Generator is for the vendor only.** Keep it in a private repo — never include it in a public distribution.
-
----
-
-## 🛠 Building from Source (Visual Studio)
-
-1. Install **Visual Studio 2022** with the **.NET desktop development** workload.
-2. Open `CatiaStackUpTool.sln` (dashboard) or `LicenseKeyGenerator.sln` (generator).
-3. **Build → Rebuild Solution**.
-4. Output: `bin\Debug\CATIA_StackUp_Professional_Dashboard.exe`.
-
----
 
 ## 📚 Documentation
 
 - **[User Guide](CATIA_StackUp_Dashboard_UserGuide.md)** — full user documentation (also available as .docx)
-- **[GitHub License Setup](GITHUB_SETUP.md)** — free online revocation in ~15 minutes, no domain needed
-- **[Licensing from Step 0](LICENSE_SYSTEM_STEP0.md)** — how the whole licensing system works
 
 ---
 
