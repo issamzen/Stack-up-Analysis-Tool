@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Replace with your logo -->
-<img src="CatiaStackUpTool/app_logo.png" alt="CATIA Stack-Up Dashboard" width="120"/>
+<img src="LOGO.png" alt="CATIA Stack-Up Dashboard" width="120"/>
 
 # CATIA Stack-Up Dashboard
 
