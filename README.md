@@ -28,6 +28,7 @@
 - Compare against a specification (Target ± tolerance) and get **Cpk**, **Yield %**, failures per million and a clear **PASS / MARGINAL / NOT OK** verdict.
 - Generate a professional **Excel report** with one sheet per stack-up, including CAD section screenshots, company logo and charts.
 - Watch full demonstration at youtube channel : https://www.youtube.com/watch?v=tN7TqjPp06w&t=730s
+- <img src="Stack-up%20Tool.png" alt="CATIA Stack-Up Dashboard" width="500"/>
 
 ---
 
